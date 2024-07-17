@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  WeatherApp
+//  WeatherWatchApp Watch App
 //
 //  Created by Adam Buryšek on 17.07.2024.
 //
@@ -35,7 +35,6 @@ struct ContentView: View {
         .onAppear {
             locationManager.$location
                 .compactMap { $0 }
-                .first()
                 .sink { location in
                     viewModel.fetchWeather(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
                 }
@@ -47,11 +46,13 @@ struct ContentView: View {
                     viewModel.errorMessage = error
                 }
                 .store(in: &cancellables)
+
+            locationManager.startUpdatingLocation()
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
 }
+
