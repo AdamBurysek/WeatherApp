@@ -22,6 +22,7 @@
 		2104C2B42C47DC170085E493 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104C2922C47DAD50085E493 /* Model.swift */; };
 		2104C2B52C47DC190085E493 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104C2962C47DB170085E493 /* WeatherAPI.swift */; };
 		2104C2B62C47DC1C0085E493 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104C2942C47DAF60085E493 /* LocationManager.swift */; };
+		2158F2D02C5191A8004B0F61 /* WeatherCompilcation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158F2CF2C5191A8004B0F61 /* WeatherCompilcation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		2104C2AB2C47DC010085E493 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2104C2B72C47DE700085E493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2104C2B92C47DE9B0085E493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2158F2CF2C5191A8004B0F61 /* WeatherCompilcation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCompilcation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				2104C2B72C47DE700085E493 /* Info.plist */,
+				2158F2CF2C5191A8004B0F61 /* WeatherCompilcation.swift */,
 				2104C2A42C47DBFF0085E493 /* WeatherWatchAppApp.swift */,
 				2104C2A62C47DBFF0085E493 /* ContentView.swift */,
 				2104C2A82C47DC010085E493 /* Assets.xcassets */,
@@ -291,6 +294,7 @@
 				2104C2B52C47DC190085E493 /* WeatherAPI.swift in Sources */,
 				2104C2B62C47DC1C0085E493 /* LocationManager.swift in Sources */,
 				2104C2A72C47DBFF0085E493 /* ContentView.swift in Sources */,
+				2158F2D02C5191A8004B0F61 /* WeatherCompilcation.swift in Sources */,
 				2104C2A52C47DBFF0085E493 /* WeatherWatchAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

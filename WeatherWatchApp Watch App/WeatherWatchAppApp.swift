@@ -9,9 +9,25 @@ import SwiftUI
 
 @main
 struct WeatherWatchApp_Watch_AppApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+    @WKExtensionDelegateAdaptor(ExtensionDelegate.self) var extensionDelegate
+      
+      var body: some Scene {
+          WindowGroup {
+              NavigationView {
+                  ContentView()
+              }
+          }
+      }
+}
+
+class ExtensionDelegate: NSObject, WKExtensionDelegate {
+    func applicationDidFinishLaunching() {
+        // Perform any final initialization of your application.
+    }
+    
+    func handle(_ backgroundTasks: Set<WKRefreshBackgroundTask>) {
+        for task in backgroundTasks {
+            task.setTaskCompletedWithSnapshot(false)
         }
     }
 }
