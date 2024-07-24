@@ -22,8 +22,6 @@
 		2104C2B42C47DC170085E493 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104C2922C47DAD50085E493 /* Model.swift */; };
 		2104C2B52C47DC190085E493 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104C2962C47DB170085E493 /* WeatherAPI.swift */; };
 		2104C2B62C47DC1C0085E493 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104C2942C47DAF60085E493 /* LocationManager.swift */; };
-		2104C2B82C47DE700085E493 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2104C2B72C47DE700085E493 /* Info.plist */; };
-		2104C2BA2C47DE9B0085E493 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2104C2B92C47DE9B0085E493 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -249,10 +247,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2104C2BA2C47DE9B0085E493 /* Info.plist in Resources */,
 				2104C28C2C47992B0085E493 /* Preview Assets.xcassets in Resources */,
 				2104C2892C47992B0085E493 /* Assets.xcassets in Resources */,
-				2104C2B82C47DE700085E493 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
